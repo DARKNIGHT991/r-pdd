@@ -1,0 +1,22 @@
+/* Базовые цвета (Күн режимі / Светлая тема) */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --btn-bg: #007bff;
+}
+
+/* Түн режимі / Темная тема */
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f1f1f1;
+    --btn-bg: #0056b3;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+
+/* Остальные твои стили для кнопок, таймера и карточек... */
