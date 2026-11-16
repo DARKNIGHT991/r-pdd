@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПДД Тест</title>
+    <!-- Подключаем наши стили -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <button id="theme-toggle">🌓 Режим</button>
+        <button id="lang-toggle">KZ / RU</button>
+        <div id="timer">20:00</div>
+    </header>
+
+    <main id="quiz-container">
+        <!-- Сюда JS будет вставлять вопросы -->
+        <h2 id="question-text">Сұрақ жүктелуде...</h2>
+        <div id="options-container"></div>
+    </main>
+
+    <!-- Подключаем главный скрипт как МОДУЛЬ -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
